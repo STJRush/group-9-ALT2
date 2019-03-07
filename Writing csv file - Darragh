@@ -1,0 +1,11 @@
+import csv
+
+f = open("https://doi.org/10.3886/ICPSR35247.v1.csv", "w", newline="")
+
+rc=csv.writer(f)
+
+rc.writerow(["dist","time"])
+rc.writerow(["1","2"])
+rc.writerow(["4","3"])
+
+f.close()
