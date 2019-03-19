@@ -1,0 +1,25 @@
+from time import sleep
+import statistics
+
+list = [1,2,3,4,6,9,11,3]
+######################################
+
+print(statistics.mean(list))
+sleep(1.75)
+
+######################################
+
+print(statistics.median(list))
+sleep(1.75)
+
+######################################
+
+print(statistics.mode(list))
+sleep(1.75)
+
+#####################################
+
+a = min(list)
+b = max(list)
+range = b - a
+print(range)
