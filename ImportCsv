@@ -1,0 +1,9 @@
+import csv
+
+f = open("", newline)
+
+reader = csv.reader(f)
+
+dataListed = [row for row in reader]
+
+print(dataListed)
